@@ -1,5 +1,5 @@
 {% set name = "acquifer-napari" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/acquifer-napari-{{ version }}.tar.gz
-  sha256: 4a892308a3477aa5575c8acb2a89ce16095164206db7ba07e2644e79324758f8
+  sha256: 285380aab2cf19bd733d239ef2cce9edd8791df158cb280fee2ae000f11bc705
 
 build:
   noarch: python
